@@ -1,0 +1,20 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #20c220;
+    color: #706f6f;
+}
+
+canvas {
+    background: #5f5151;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
