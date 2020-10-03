@@ -14,7 +14,7 @@ function windowResized() {
 
 function setup() {
     // creating canvas
-    createCanvas(window.innerWidth - 4, window.innerHeight - 4);
+    createCanvas(window.innerWidth - 2, window.innerHeight - 2);
     
     thetaSlider = createSlider(-0.3, 0.3, 0.055, 0.001);
     thetaSlider.size(window.innerWidth / 2 - 20);
